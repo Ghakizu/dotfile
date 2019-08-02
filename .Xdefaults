@@ -1,0 +1,12 @@
+URxvt*geometry:      100x30
+URxvt*highlightSelection: true
+URxvt*depth:32
+URxvt*background: rgba:3333/3333/3333/e3e3
+URxvt.foreground: #DEDEDE
+
+*font: xft:Source Code Pro:size=12:antialias=true:hinting=true
+*boldFont: xft:Source Code Pro:size=12:antialias=true:hinting=true
+*italicFont: xft:Source Code Pro:style=Oblique:size=12:antialias=true:hinting=true
+*boldItalicFont: xft:Source Code Pro:style=Bold Oblique:size=12:antialias=true:hinting=true
+*letterSpace: 1
+URxvt.scrollBar: false
