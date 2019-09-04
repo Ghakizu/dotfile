@@ -89,5 +89,6 @@ set smartindent
 set autoindent
 set ruler
 set nu
+highlight Normal ctermbg=None
 
 

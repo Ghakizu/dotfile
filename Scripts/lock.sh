@@ -1,7 +1,7 @@
 #!/bin/bash
 #dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop
 
-wallpaper=$HOME/Pictures/Wallpaper/Current/wallhaven-704272.jpg
+wallpaper=$HOME/Pictures/Wallpaper/wallhaven-704272.jpg
 nb_quotes=12
 rand=$[ ( $RANDOM % $nb_quotes ) + 1 ]
 case $rand in
@@ -37,7 +37,7 @@ i3lock \
     --insidevercolor=$semitrans --insidewrongcolor=$semitrans \
     --ringvercolor=$orange --ringwrongcolor=$red \
     --radius=200 --ring-width=10 \
-    --greetertext="$quote" --veriftext="Hit or Miss" --wrongtext="I guess you always miss" --noinputtext="huh ?" \
+    --greetertext="$quote" --veriftext="Waiting..." --wrongtext="Sike nigga u fool" --noinputtext="OwO what's this ?" \
     --greetercolor=$indigo \
     --wrongcolor=$red \
     --clock \
